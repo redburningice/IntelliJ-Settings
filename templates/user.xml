@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="euler" value="/** &#10;     * &#10;     */&#10;&#10;    // task variables&#10;    final static int VAR_1 = 0;&#10;&#10;    public static void main(java.lang.String[] args) {&#10;        // not solved yet&#10;        TimeHelper time = new TimeHelper();&#10;&#10;        solution1();&#10;    &#10;        time.printDuration();&#10;    }&#10;    &#10;    private static void solution1() {&#10;        $END$&#10;}   " description="builds the default class template used for ProjectEuler.net exercises" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

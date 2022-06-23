@@ -1,0 +1,6 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="standard11_1.dtd" location="C:/Subversion/Workflow_Enhancer" />
+    <ignored-resource url="standard11_1.dtd" />
+  </component>
+</application>

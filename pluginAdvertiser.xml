@@ -112,6 +112,11 @@
                       <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="com.poratu.idea.plugins.tomcat">
+                    <value>
+                      <FeaturePluginData displayName="Smart Tomcat" pluginName="Smart Tomcat" pluginId="com.poratu.idea.plugins.tomcat" />
+                    </value>
+                  </entry>
                 </map>
               </option>
             </FeaturePluginsList>

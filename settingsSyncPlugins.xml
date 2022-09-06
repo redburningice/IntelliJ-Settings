@@ -77,6 +77,29 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.vermouthx.idea">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="me.alexjs.theme.darcula-liquid">
+          <value>
+            <PluginData>
+              <option name="category" value="UI" />
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

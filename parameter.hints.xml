@@ -1,9 +1,13 @@
 <application>
   <component name="ParameterNameHintsSettings">
-    <option id="java.multiple.params.same.type" value="true" />
     <option id="java.build.like.method" value="true" />
-    <option id="java.simple.sequentially.numbered" value="true" />
-    <option id="java.clear.expression.type" value="true" />
-    <option id="java.method.name.contains.parameter.name" value="true" />
+    <option id="java.enums" value="false" />
+    <option id="java.new.expr" value="false" />
+    <disabledLanguages>
+      <language id="JAVA" />
+      <language id="NBTT" />
+      <language id="kotlin" />
+      <language id="Groovy" />
+    </disabledLanguages>
   </component>
 </application>

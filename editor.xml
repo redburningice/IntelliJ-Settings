@@ -18,9 +18,13 @@
     </option>
     <option name="disabledCodeVisionProviderIds">
       <set>
+        <option value="inheritors" />
+        <option value="problems" />
         <option value="references" />
+        <option value="vcs.code.vision" />
       </set>
     </option>
+    <option name="enabled" value="false" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
@@ -36,7 +40,25 @@
     <option name="SHOW_BREADCRUMBS" value="false" />
   </component>
   <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="Groovy.groovy.parameters.hints" />
+        <option value="Groovy.groovy.variable.type.hints" />
+        <option value="JAVA.chain.hints" />
+        <option value="JAVA.java.implicit.types" />
+        <option value="kotlin.kotlin.call.chains.hints" />
+        <option value="kotlin.kotlin.references.types.hints" />
+      </set>
+    </option>
     <option name="lastViewedProviderKeyId" value="" />
+    <settingsMapElement>
+      <Groovy.groovy.parameters.hints>
+        <Settings>
+          <option name="showInferredParameterTypes" value="false" />
+          <option name="showTypeParameterList" value="false" />
+        </Settings>
+      </Groovy.groovy.parameters.hints>
+    </settingsMapElement>
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseConstructorGenericParameters" value="false" />

@@ -4,7 +4,6 @@
     <option id="java.enums" value="false" />
     <option id="java.new.expr" value="false" />
     <disabledLanguages>
-      <language id="JAVA" />
       <language id="NBTT" />
       <language id="kotlin" />
       <language id="Groovy" />

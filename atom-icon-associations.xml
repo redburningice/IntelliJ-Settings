@@ -1,0 +1,57 @@
+<application>
+  <component name="Atom Icon Selections Config">
+    <option name="selectedFileAssociations">
+      <SelectedAssociations>
+        <option name="ownAssociations">
+          <map>
+            <entry key="Android Main">
+              <value>
+                <RegexAssociation>
+                  <option name="matcher" value="^MainActivity\.java$" />
+                  <option name="pattern" value="^MainActivity\.java$" />
+                  <option name="touched" value="true" />
+                  <option name="name" value="Android Main" />
+                  <option name="icon" value="/icons/files/android.svg" />
+                </RegexAssociation>
+              </value>
+            </entry>
+            <entry key="Bean">
+              <value>
+                <RegexAssociation>
+                  <option name="matcher" value=".*([bB])ean\.java$" />
+                  <option name="pattern" value=".*([bB])ean\.java$" />
+                  <option name="touched" value="true" />
+                  <option name="name" value="Bean" />
+                  <option name="icon" value="/icons/files/bean.svg" />
+                </RegexAssociation>
+              </value>
+            </entry>
+            <entry key="Java Bundles">
+              <value>
+                <RegexAssociation>
+                  <option name="matcher" value=".*[bB]undle\.java$" />
+                  <option name="pattern" value=".*[bB]undle\.java$" />
+                  <option name="touched" value="true" />
+                  <option name="name" value="Java Bundles" />
+                  <option name="icon" value="/icons/files/i18nJava.svg" />
+                  <option name="priority" value="1000" />
+                </RegexAssociation>
+              </value>
+            </entry>
+            <entry key="Test Java">
+              <value>
+                <RegexAssociation>
+                  <option name="matcher" value="([tT])est\.java$" />
+                  <option name="pattern" value="([tT])est\.java$" />
+                  <option name="touched" value="true" />
+                  <option name="name" value="Test Java" />
+                  <option name="icon" value="/icons/files/testjava.svg" />
+                </RegexAssociation>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </SelectedAssociations>
+    </option>
+  </component>
+</application>

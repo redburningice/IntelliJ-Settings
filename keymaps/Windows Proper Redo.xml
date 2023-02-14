@@ -23,6 +23,9 @@
     <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="Terminal.ClearBuffer" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="alt dead_circumflex" />
   </action>

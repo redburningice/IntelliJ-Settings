@@ -34,6 +34,11 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.dubreuia">
+          <value>
+            <PluginData />
+          </value>
+        </entry>
         <entry key="com.jetbrains.darkPurpleTheme">
           <value>
             <PluginData>
@@ -120,6 +125,7 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>

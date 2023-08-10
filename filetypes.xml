@@ -1,6 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="neue Datei" type="AUTO_DETECTED" />
+      <mapping pattern="new-file" type="AUTO_DETECTED" />
       <mapping pattern="TimeCopy" type="AUTO_DETECTED" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
@@ -8,6 +10,8 @@
       <mapping ext="xconf" type="XML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping ext="xls" approved="true" type="Native" />
+      <removed_mapping ext="xlsx" approved="true" type="Native" />
     </extensionMap>
   </component>
 </application>

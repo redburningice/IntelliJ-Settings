@@ -30,4 +30,11 @@
       <option name="LATEX" value="true" />
     </context>
   </template>
+  <template name="acro" value="\acro{$ACRONYM$}{$FULL$}$END$" description="create new acronym" toReformat="false" toShortenFQNames="true">
+    <variable name="ACRONYM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FULL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LATEX" value="true" />
+    </context>
+  </template>
 </templateSet>

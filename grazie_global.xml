@@ -10,6 +10,7 @@
       <set>
         <option value="UNPAIRED_BRACKETS" />
         <option value="DE_CASE" />
+        <option value="INFINITIV_MIT_ZU" />
       </set>
     </option>
   </component>

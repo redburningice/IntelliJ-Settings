@@ -1,0 +1,33 @@
+<templateSet group="LaTeX">
+  <template name="\partl" value="\part{$TITLE$}&#10;\label{$LABEL$}$END$" description="Part with label" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="latexFormatAsLabel(TITLE)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="\chapl" value="\chapter{$TITLE$}&#10;\label{ch:$LABEL$}$END$" description="Chapter with label" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="latexFormatAsLabel(TITLE)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="\secl" value="\section{$TITLE$}&#10;\label{sec:$LABEL$}$END$" description="Section with label" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="latexFormatAsLabel(TITLE)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="\subsecl" value="\subsection{$TITLE$}&#10;\label{subsec:$LABEL$}$END$" description="Subsection with label" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="latexFormatAsLabel(TITLE)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="\subsubsecl" value="\subsubsection{$TITLE$}&#10;\label{subsubsec:$LABEL$}$END$" description="Subsubsection with label" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="latexFormatAsLabel(TITLE)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ac" value="\ac{$ABBREVIATION$} $END$" description="abbreviation" toReformat="false" toShortenFQNames="true">
+    <variable name="ABBREVIATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LATEX" value="true" />
+    </context>
+  </template>
+</templateSet>

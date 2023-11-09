@@ -6,5 +6,11 @@
         <option value="German (Germany)" />
       </set>
     </option>
+    <option name="userDisabledRules">
+      <set>
+        <option value="UNPAIRED_BRACKETS" />
+        <option value="DE_CASE" />
+      </set>
+    </option>
   </component>
 </application>

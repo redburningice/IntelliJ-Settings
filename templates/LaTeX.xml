@@ -37,4 +37,10 @@
       <option name="LATEX" value="true" />
     </context>
   </template>
+  <template name="quote" value="\glqq $VAR1$\grqq{} $END$" description="German quotes" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LATEX" value="true" />
+    </context>
+  </template>
 </templateSet>
